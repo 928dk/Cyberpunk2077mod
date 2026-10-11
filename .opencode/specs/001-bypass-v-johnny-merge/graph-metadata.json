@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "packet_id": "001-bypass-v-johnny-merge",
+  "spec_folder": "001-bypass-v-johnny-merge",
+  "parent_id": null,
+  "children_ids": [],
+  "manual": {
+    "depends_on": [],
+    "supersedes": [],
+    "related_to": []
+  },
+  "derived": {
+    "trigger_phrases": [
+      "cyberpunk",
+      "merge",
+      "johnny",
+      "silverhand",
+      "relic",
+      "mod",
+      "bypass"
+    ],
+    "key_topics": [
+      "V-Johnny merge prevention",
+      "Relic storyline",
+      "CET/Redscript/REDmod modding layers",
+      "savegame fact analysis",
+      "alternative resolution fallback"
+    ],
+    "importance_tier": "normal",
+    "status": "in_progress",
+    "key_files": [
+      "spec.md",
+      "plan.md",
+      "tasks.md",
+      "implementation-summary.md"
+    ],
+    "entities": [
+      "q005_heist",
+      "sq032_tapeworm",
+      "q302_06_johnny_disappear",
+      "sb_johnny_disappear"
+    ],
+    "causal_summary": "Cyberpunk 2077 forces V and Johnny Silverhand to merge during the Relic storyline, and the merge cannot be declined in-game. Goal is to prevent the merge so V stays V while districts, side quests and Phantom Liberty remain reachable; if the merge cannot be blocked at its trigger, fall back to an alternative scripted resolution that removes Johnny instead of merging him. Phase 1 is investigation only, because the merge may be enforced in compiled engine code with no script hook.",
+    "created_at": "2026-10-03T00:00:00Z",
+    "last_save_at": "2026-10-03T00:00:00Z",
+    "save_lineage": "graph_only",
+    "last_accessed_at": null,
+    "source_docs": [
+      "spec.md",
+      "plan.md",
+      "tasks.md",
+      "implementation-summary.md"
+    ]
+  }
+}

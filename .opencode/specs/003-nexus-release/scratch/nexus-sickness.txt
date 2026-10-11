@@ -1,0 +1,110 @@
+NoRelicSickness — Nexus page copy (BBCode)
+==========================================
+Spec 003. Fill the bracket marked TESTED-ON before publishing.
+
+Fields to set on the form:
+  Title       NoRelicSickness
+  Version     1.0.0
+  Category    Gameplay
+  Author      928dk
+  Requirements  RED4ext, TweakXL
+  Permissions  MIT - see docs/Licence.md
+  File        dist/NoRelicSickness-1.0.0.zip
+  Image       scratch/nexus-header-sickness.png (1920x1080)
+
+Page image provenance: the header is a plain text banner drawn with Pillow
+(scratch/make-nexus-header.py). It is not AI-generated art and contains no CD
+Projekt Red artwork, so no AI-content disclosure is required for it.
+
+---- description (BBCode) ----
+
+[b][size=5]The Relic still runs. It just stops hurting you.[/size][/b]
+
+NoRelicSickness removes the Relic-sickness [i]effect[/i] without touching the Relic itself. Every
+district, side quest, ending and Phantom Liberty path stays exactly as vanilla: V still carries the
+Relic, still shares the story with Johnny, still reaches every ending. What goes away is the
+sickness.
+
+[line]
+
+[b]What changes[/b]
+[list]
+[*]No fullscreen yellow/glitch overlay
+[*]No camera-breathing animation
+[*]No fullscreen SFX
+[*]No stamina-regen penalty (vanilla runs -2.5% / -5% / -10% / -15%)
+[/list]
+
+[b]What does [u]not[/u] change[/b]
+[list]
+[*]The Relic, its perk tree, its quests and its scenes
+[*]Any story beat. The scripted moments where V visibly collapses are story animation, not this
+    effect, and they stay.
+[*]Johnny. This is not a Johnny-removal mod.
+[*]Your save. This is a data overlay; nothing is written to save data.
+[/list]
+
+[line]
+
+[b]Requirements[/b]
+[list]
+[*][b]RED4ext[/b] - the mod loader
+[*][b]TweakXL[/b] - reads the override file
+[/list]
+
+Install both of those first. Without TweakXL this file does nothing at all.
+
+[b]Install[/b]
+
+Drop the [code]r6[/code] folder from the archive into your Cyberpunk 2077 directory, so you end up
+with:
+
+[code]<Cyberpunk 2077>/r6/tweaks/NoRelicSickness.yaml[/code]
+
+That is the entire mod. Nothing in the game folder is patched, so there is no backup to take and no
+deploy step to run. Vortex can install the archive directly.
+
+[b]Uninstall[/b]
+
+Delete that one file. That is the whole uninstall.
+
+[line]
+
+[b]How it works[/b]
+
+It is a TweakXL overlay. It overrides six shipped TweakDB status-effect records and clears only their
+payload, keeping every record name and inheritance edge so all quest call sites still resolve. No
+game file is edited, no code runs at runtime.
+
+[b]Compatibility[/b]
+[list]
+[*][b]The Downward Spiral - On Borrowed Time[/b] (Nexus mod 25974): compatible, and worth reading.
+    Vanilla cannot kill V with the Relic; the death countdown is that mod's addition, keyed off the
+    [code]sickness_on[/code] fact. This mod does not touch that fact, so [b]25974 will still kill V
+    on schedule[/b] if you install it. The two do not otherwise interact.
+[*]Other TweakXL tweaks: fine unless they override these same six records, in which case load order
+    decides the winner.
+[*]Quest and scene mods: no interaction. This mod touches no quest or scene data.
+[/list]
+
+[b]Known limitations[/b]
+[list]
+[*]The scripted sickness beats stay. V still glitches and hears the voicesets during the story
+    scenes; removing those is a quest-graph edit, which this is not.
+[*]Phantom Liberty's relic-shock record is overridden as well, but PL was not available to test
+    against. The base game is the tested path.
+[*]TweakXL applies a file even when it rejects one property inside it, and says so only in
+    [code]red4ext/logs/tweakxl.log[/code]. If a future game patch renames a field the mod uses,
+    check that log after the first launch.
+[/list]
+
+[line]
+
+[b]Status[/b]
+
+TESTED-ON  <!-- fill as: Tested on Cyberpunk 2077 2.xx with TweakXL x.y, <date>. -->
+
+Built from the game's own shipped TweakDB sources. Source, tests and the reasoning behind the scope:
+[url=https://github.com/928dk/Cyberpunk2077mod]github.com/928dk/Cyberpunk2077mod[/url]
+
+---- end description ----

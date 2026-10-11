@@ -1,0 +1,124 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.egg-info/
+.installed.cfg
+.egg
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Data
+*.db
+*.sqlite
+*.sqlite3
+
+# Archives
+*.tar.gz
+*.zip
+
+# Temporary
+tmp/
+temp/
+*.tmp
+
+# ---------------------------------------------------------------------------
+# Project-specific exclusions
+# ---------------------------------------------------------------------------
+
+# Agent config. The spec folder under it IS tracked -- it is this project's
+# design record -- while the rest of .opencode stays local.
+.opencode/*
+!.opencode/specs/
+
+# Third-party tool clones live outside the repo at ~/projects/Cyberpunk-tooling/.
+# Listed defensively so re-cloning one inside the project cannot get it committed.
+# WolvenKit/ | Cyberpunk-Modding-Docs/ | CyberpunkSaveEditor/
+# CyberEngineTweaks/ | let_there_be_flight/
+
+# ---------------------------------------------------------------------------
+# SAVE DATA -- never published.
+# ---------------------------------------------------------------------------
+# Game saves and anything derived from them stay on this machine. A savegame is
+# personal play history; the fact store inside it can be large and its
+# provenance is unclear. Save *names* appear in the docs as test identifiers
+# (ManualSave-5 is the pre-Heist baseline), but no save file, no fact dump and
+# no playthrough ID is ever committed.
+Saves/
+saves/
+savegames/
+*.sav
+metadata.*.json
+*finishedQuests*
+*playthroughID*
+*CFacts*export*
+facts-dump/
+facts_dump/
+
+# ---------------------------------------------------------------------------
+# Extracted game data -- reproducible from the Steam install via WolvenKit,
+# far too large to version, and redistributing it would be a licensing problem.
+# ---------------------------------------------------------------------------
+/archives/
+/extracted/
+/cp-unpack/
+*.questphase
+*.quest
+*.tweakdb
+*.bin
+# NoRelicSickness: pristine copies of the shipped TweakDB sources, and deploy logs
+src/no-relic-sickness/.backup/
+src/no-relic-sickness/.deploy*.log
+
+# --- added by publish-sanitize ---
+venv/
+.venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+*.log
+data/
+archives/

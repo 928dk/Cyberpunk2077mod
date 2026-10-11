@@ -1,0 +1,50 @@
+NoRelicSickness
+===============
+
+Stops the Relic from hurting V. The Relic, its storyline and its scenes are
+unchanged -- only the sickness effect is removed.
+
+Requires
+--------
+  * Cyberpunk 2077 (base game; the Phantom Liberty record is included and is
+    simply unused if you do not own the expansion)
+  * RED4ext
+  * TweakXL
+
+Install
+-------
+Copy the r6 folder into your Cyberpunk 2077 directory:
+
+    <Cyberpunk 2077>/r6/tweaks/NoRelicSickness.yaml
+
+That is the whole mod. No game file is modified, so nothing needs a backup and
+there is no deploy step.
+
+Uninstall
+---------
+Delete the file:
+
+    <Cyberpunk 2077>/r6/tweaks/NoRelicSickness.yaml
+
+What it changes
+---------------
+Six shipped TweakDB status-effect records are overridden. Every record keeps its
+name and its inheritance edge, so all quest call sites still resolve:
+
+    BaseStatusEffect.JohnnySicknessAbstract      drops the CameraAnimation tag
+    BaseStatusEffect.JohnnySicknessLow           clears VFX and packages
+    BaseStatusEffect.JohnnySicknessMedium        clears VFX and packages
+    BaseStatusEffect.JohnnySicknessMediumQuest   clears VFX and packages
+    BaseStatusEffect.JohnnySicknessHeavy         clears VFX and packages
+    BaseStatusEffect.q304_songbird_relic_shock   clears VFX and packages (PL)
+
+Removed: the fullscreen yellow/glitch overlay, the camera-breathing animation,
+the fullscreen SFX, and the stamina-regen penalty.
+
+Not changed: the Relic, its perk tree, its quests and its scenes. Scripted beats
+where V visibly collapses are story animation and stay.
+
+Compatibility
+-------------
+This is a TweakDB overlay, so it composes with mods that touch quests or scenes.
+If another mod also overrides these same records, load order decides the winner.

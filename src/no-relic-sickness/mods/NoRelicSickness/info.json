@@ -1,0 +1,5 @@
+{
+  "name": "NoRelicSickness",
+  "description": "Neutralises the Relic-sickness status effect: no fullscreen VFX, no camera-breathing animation, no fullscreen SFX, no stamina-regen penalty. Records and inheritance are preserved so every quest call site still resolves. The Relic itself is untouched -- this only stops it hurting V. Companion to the johnny_sickness.tweak and ep1 quest_custom.tweak edits applied by install.sh.",
+  "version": "1.0.0"
+}

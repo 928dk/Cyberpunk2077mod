@@ -1,0 +1,142 @@
+==============================================================================
+TIER 1  #johnny_replacer   confirmed Johnny            -> disable
+==============================================================================
+  [417] enable=1  base/quest/main_quests/epilogue/q204/phases/q204_02_corridor.questphase.json
+  [371] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_01_concert.questphase.json
+  [527] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_02_kerry.questphase.json
+  [635] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_03_hallway.questphase.json
+  [1427] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_03_hallway.questphase.json
+  [1763] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_03_hallway.questphase.json
+  [745] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_04_smasher.questphase.json
+  [342] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_04a_evac.questphase.json
+  [250] enable=0  base/quest/main_quests/part1/q101/phases/q101_j_05_soulkiller.questphase.json
+  [542] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_05_soulkiller.questphase.json
+  [623] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_05_soulkiller.questphase.json
+  [167] enable=1  base/quest/main_quests/part1/q108/phases/q108_01_concert.questphase.json
+  [499] enable=1  base/quest/main_quests/part1/q108/phases/q108_01_concert.questphase.json
+  [301] enable=1  base/quest/main_quests/part1/q108/phases/q108_02_backalley.questphase.json
+  [594] enable=1  base/quest/main_quests/part1/q108/phases/q108_02_backalley.questphase.json
+  [147] enable=1  base/quest/main_quests/part1/q108/phases/q108_03_ripperdoc.questphase.json
+  [617] enable=1  base/quest/main_quests/part1/q108/phases/q108_04_atlantis.questphase.json
+  [1487] enable=1  base/quest/main_quests/part1/q108/phases/q108_04_atlantis.questphase.json
+  [522] enable=1  base/quest/main_quests/part1/q108/phases/q108_05_escape.questphase.json
+  [1801] enable=1  base/quest/main_quests/part1/q108/phases/q108_05_escape.questphase.json
+  [2814] enable=1  base/quest/main_quests/part1/q108/phases/q108_05_escape.questphase.json
+  [144] enable=1  base/quest/main_quests/part1/q108/phases/q108_06_tower.questphase.json
+  [326] enable=1  base/quest/main_quests/part1/q108/phases/q108_06_tower.questphase.json
+  [510] enable=1  base/quest/main_quests/part1/q108/phases/q108_06_tower.questphase.json
+  [586] enable=1  base/quest/main_quests/part1/q108/phases/q108_06a_tower_server.questphase.json
+  [155] enable=1  base/quest/main_quests/part1/q108/phases/q108_riots.questphase.json
+  [328] enable=1  base/quest/main_quests/part1/q116/phases/q116_cyberspace.questphase.json   ['johnny']
+  [777] enable=1  base/quest/main_quests/part1/q116/phases/q116_cyberspace.questphase.json   ['johnny']
+  -> 28 nodes in 16 files   |  27 need flipping to enable=0
+
+==============================================================================
+TIER 2  #bd_replacer       symbolic braindance slot    -> HOLD
+==============================================================================
+  [155] enable=1  base/quest/main_quests/part1/q105/phases/q105_blackmarket_braindance.questphase.json
+  [341] enable=0  base/quest/main_quests/part1/q105/phases/q105_blackmarket_braindance.questphase.json
+  [386] enable=1  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [862] enable=0  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1003] enable=0  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1327] enable=1  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1786] enable=0  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1595] enable=0  base/quest/main_quests/prologue/q004/phases/q004_after_bd.questphase.json
+  [310] enable=1  base/quest/main_quests/prologue/q004/phases/q004_bd_tut_store.questphase.json
+  [1253] enable=0  base/quest/main_quests/prologue/q004/phases/q004_bd_tut_store_cinematics.questphase.json
+  [1297] enable=1  base/quest/main_quests/prologue/q004/phases/q004_bd_tut_store_cinematics.questphase.json
+  [114] enable=1  base/quest/main_quests/prologue/q004/phases/q004_braindance.questphase.json
+  [175] enable=1  base/quest/side_quests/sq012/phases/sq012_the_law_braindance.questphase.json
+  [216] enable=0  base/quest/side_quests/sq012/phases/sq012_the_law_braindance.questphase.json
+  [313] enable=1  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  [1656] enable=0  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  [1729] enable=1  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  [2662] enable=0  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  -> 18 nodes in 8 files   |  0 need flipping to enable=0
+
+==============================================================================
+TIER 3  other replacers    Kurt / VR / PL / mall NPC  -> never touch
+==============================================================================
+  [530] enable=1  base/quest/main_quests/part1/q110/phases/q110_demo_playstyle_selection.questphase.json   ['#q110_com_mall_v_solo_female_replacer']
+  [147] enable=1  base/quest/minor_quests/mq060/phases/mq060_yaiba_showroom.questphase.json   ['#mq060_communityArea', 'android_replacer']
+  -> 2 nodes in 2 files   |  0 need flipping to enable=0
+
+TOTAL 48 nodes  |  tier1=28 tier2=18 tier3=2
+==============================================================================
+TIER 1  #johnny_replacer   confirmed Johnny            -> disable
+==============================================================================
+  [417] enable=1  base/quest/main_quests/epilogue/q204/phases/q204_02_corridor.questphase.json
+  [371] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_01_concert.questphase.json
+  [527] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_02_kerry.questphase.json
+  [635] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_03_hallway.questphase.json
+  [1427] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_03_hallway.questphase.json
+  [1763] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_03_hallway.questphase.json
+  [745] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_04_smasher.questphase.json
+  [342] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_04a_evac.questphase.json
+  [250] enable=0  base/quest/main_quests/part1/q101/phases/q101_j_05_soulkiller.questphase.json
+  [542] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_05_soulkiller.questphase.json
+  [623] enable=1  base/quest/main_quests/part1/q101/phases/q101_j_05_soulkiller.questphase.json
+  [547] enable=1  base/quest/main_quests/part1/q101/test/profiling/q101_hammer_club_concert.quest.json
+  [167] enable=1  base/quest/main_quests/part1/q108/phases/q108_01_concert.questphase.json
+  [499] enable=1  base/quest/main_quests/part1/q108/phases/q108_01_concert.questphase.json
+  [301] enable=1  base/quest/main_quests/part1/q108/phases/q108_02_backalley.questphase.json
+  [594] enable=1  base/quest/main_quests/part1/q108/phases/q108_02_backalley.questphase.json
+  [147] enable=1  base/quest/main_quests/part1/q108/phases/q108_03_ripperdoc.questphase.json
+  [617] enable=1  base/quest/main_quests/part1/q108/phases/q108_04_atlantis.questphase.json
+  [1487] enable=1  base/quest/main_quests/part1/q108/phases/q108_04_atlantis.questphase.json
+  [522] enable=1  base/quest/main_quests/part1/q108/phases/q108_05_escape.questphase.json
+  [1801] enable=1  base/quest/main_quests/part1/q108/phases/q108_05_escape.questphase.json
+  [2814] enable=1  base/quest/main_quests/part1/q108/phases/q108_05_escape.questphase.json
+  [144] enable=1  base/quest/main_quests/part1/q108/phases/q108_06_tower.questphase.json
+  [326] enable=1  base/quest/main_quests/part1/q108/phases/q108_06_tower.questphase.json
+  [510] enable=1  base/quest/main_quests/part1/q108/phases/q108_06_tower.questphase.json
+  [586] enable=1  base/quest/main_quests/part1/q108/phases/q108_06a_tower_server.questphase.json
+  [155] enable=1  base/quest/main_quests/part1/q108/phases/q108_riots.questphase.json
+  [328] enable=1  base/quest/main_quests/part1/q116/phases/q116_cyberspace.questphase.json   ['johnny']
+  [777] enable=1  base/quest/main_quests/part1/q116/phases/q116_cyberspace.questphase.json   ['johnny']
+  -> 29 nodes in 17 files   |  28 need flipping to enable=0
+
+==============================================================================
+TIER 2  #bd_replacer       symbolic braindance slot    -> HOLD
+==============================================================================
+  [155] enable=1  base/quest/main_quests/part1/q105/phases/q105_blackmarket_braindance.questphase.json
+  [341] enable=0  base/quest/main_quests/part1/q105/phases/q105_blackmarket_braindance.questphase.json
+  [386] enable=1  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [862] enable=0  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1003] enable=0  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1327] enable=1  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1786] enable=0  base/quest/main_quests/part1/q105/phases/q105_judys_braindance.questphase.json
+  [1595] enable=0  base/quest/main_quests/prologue/q004/phases/q004_after_bd.questphase.json
+  [310] enable=1  base/quest/main_quests/prologue/q004/phases/q004_bd_tut_store.questphase.json
+  [1253] enable=0  base/quest/main_quests/prologue/q004/phases/q004_bd_tut_store_cinematics.questphase.json
+  [1297] enable=1  base/quest/main_quests/prologue/q004/phases/q004_bd_tut_store_cinematics.questphase.json
+  [114] enable=1  base/quest/main_quests/prologue/q004/phases/q004_braindance.questphase.json
+  [175] enable=1  base/quest/side_quests/sq012/phases/sq012_the_law_braindance.questphase.json
+  [216] enable=0  base/quest/side_quests/sq012/phases/sq012_the_law_braindance.questphase.json
+  [313] enable=1  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  [1656] enable=0  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  [1729] enable=1  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  [2662] enable=0  base/quest/side_quests/sq021/phases/sq021_braindance.questphase.json
+  -> 18 nodes in 8 files   |  0 need flipping to enable=0
+
+==============================================================================
+TIER 3  other replacers    Kurt / VR / PL / mall NPC  -> never touch
+==============================================================================
+  [530] enable=1  base/quest/main_quests/part1/q110/phases/q110_demo_playstyle_selection.questphase.json   ['#q110_com_mall_v_solo_female_replacer']
+  [147] enable=1  base/quest/minor_quests/mq060/phases/mq060_yaiba_showroom.questphase.json   ['#mq060_communityArea', 'android_replacer']
+  -> 2 nodes in 2 files   |  0 need flipping to enable=0
+
+TOTAL 49 nodes  |  tier1=29 tier2=18 tier3=2
+
+## SUMMARY
+Design A: disable questReplacer_NodeType.enable on every #johnny_replacer node.
+Tier 1 = confirmed Johnny (disable). Tier 2 = #bd_replacer symbolic slot (HELD).
+Tier 3 = other replacer actors (never touch). test//profiling/ excluded from ship.
+
+Ship set: 16 files, 27 nodes.
+q101_j_01_concert, q101_j_02_kerry, q101_j_03_hallway (x3), q101_j_04_smasher,
+q101_j_04a_evac, q101_j_05_soulkiller (x2), q108_01_concert (x2), q108_02_backalley (x2),
+q108_03_ripperdoc, q108_04_atlantis (x2), q108_05_escape (x3), q108_06_tower (x3),
+q108_06a_tower_server, q108_riots, q116_cyberspace (x2), q204_02_corridor
+
+Recorded 2026-10-04. Re-run this manifest after any game patch and diff against it.

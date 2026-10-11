@@ -1,0 +1,1 @@
+# CP2077 mod tooling deps (if any Python tooling added)

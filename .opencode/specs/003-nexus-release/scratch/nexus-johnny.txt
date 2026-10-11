@@ -1,0 +1,27 @@
+NoJohnnyReplacer — Nexus page copy
+==================================
+Spec 003. DO NOT PUBLISH. This file is a deliberate placeholder, not a draft page.
+
+There is no Nexus page for NoJohnnyReplacer yet, and there should not be one, because the mod does not
+exist as a deliverable:
+
+1. No artifact. tools/replacer-scope.py emits and verifies the patched quest JSON, but nothing has
+   serialized that JSON back into .quest/.questphase resources and packed a REDmod archive. That step
+   needs WolvenKit, which is still a source checkout with no proven CLI round-trip on the dev machine.
+
+2. The keystone assumption is untested. The whole design rests on questReplacer_NodeType.enable = false
+   being honoured at runtime. That has never been verified. If it is not honoured, the mod does
+   nothing, and a published page would be a false claim.
+
+3. The limits are already known and are large. Disabling replacer nodes does not remove Johnny from
+   the 195 scripted scenes that spawn him through the Character.Silverhand scene-actor record, and it
+   does not remove the Relic sickness. A page would have to lead with both.
+
+What would have to be true before this page is written:
+  [ ] WolvenKit serialize + pack round-trip demonstrated
+  [ ] enable=false confirmed honoured in game (load save past the point where Johnny would appear)
+  [ ] No merge on a save through the Relic arc; districts reachable; no softlock
+  [ ] Clean uninstall returning the save to vanilla behaviour
+
+Tracked in .opencode/specs/001-bypass-v-johnny-merge/ (tasks T020-T025) and
+.opencode/specs/003-nexus-release/plan.md Phase C.
